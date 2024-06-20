@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Todo esto de abajo es del index */
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #dda15e;
+}
+
+.imagen-logo{
+    height: 6rem;
+    width: 14rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #588157;
+}
+
+.main-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/fondooo.jpg);
+    padding: 10rem;
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+.cajas-centrales{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cajitas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0d1b2a;
+    border-radius: 0.2rem;
+    background-color: #e0e1dd;
+    padding: 2rem 2rem;
+}
+
+.mini-texto{
+    font-size: 1.2rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #dda15e;
+    border: 1px solid #0d1b2a;
+    border-radius: 0.2rem;
+    background-color: #e0e1dd;
+    height: 8rem;
+    width: 25rem;
+    align-content: center;
+}
+
+.pagina-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.linea{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+    background-color: #588157;
+    padding-bottom: 2rem;
+}
+
+.footer p{
+    font-size: 1.1rem;
+}
+
+.whatsapp-item{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+}
+
+/* todo esto de abajo es de Servicios */
+
+.main-servicios{
+    background-image: url(../image/fondooo.jpg);
+    padding: 10rem;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.servicios-varios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.cajitas-servicios{
+    border: 1px solid #0d1b2a;
+    border-radius: 0.2rem;
+    background-color: #e0e1dd;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+/* todo esto de abajo es productos */
+
+.main-productos{
+    background-image: url(../image/fondooo.jpg);
+    padding: 3rem;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.section-productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.img-productos{
+    width: 18rem;
+    height: 10rem;
+}
+
+.cajitas-conjunto{
+    background-color: #e0e1dd;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 0.8rem;
+}
+
+/* todo esto de abajo es Galeria */
+
+.main-galeria{
+    background-image: url(../image/fondooo.jpg);
+    padding: 10rem;
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+/* todo esto de abajo es Contactos */
+
+.main-contacto{
+    background-image: url(../image/fondooo.jpg);
+    padding: 10rem;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.formulario{
+    padding: 2rem;
+    background-color: beige;
+    width: 20rem;
+}
+
+#texto-chico{
+    resize: none;
+}
+
+.blanquito{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #e0e1dd;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
